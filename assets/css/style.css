@@ -797,7 +797,7 @@ p {
   margin-top: 25px;
 }
 .php-email-form .sent-message {
-  display: none;
+  display: inline-block;
   color: #fff;
   background: #18d26e;
   text-align: center;
@@ -806,7 +806,7 @@ p {
   margin-bottom: 15px;
 }
 .php-email-form .loading {
-  display: none;
+  display: inline-block;
   background: #fff;
   text-align: center;
   padding: 15px;
