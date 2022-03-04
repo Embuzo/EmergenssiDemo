@@ -797,7 +797,7 @@ p {
   margin-top: 25px;
 }
 .php-email-form .sent-message {
-  display: inline-block;
+  display: none;
   color: #fff;
   background: #18d26e;
   text-align: center;
