@@ -182,7 +182,16 @@
             </div>
 
             <div class="col-lg-6">
-              <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <form action="https://formsubmit.co/dfe59bd74ae0d6de5d3b30d186c2d47d" method="POST" role="form" class="php-email-form">
+                <!-- Honeypot -->
+                <input type="text" name="_honey" style="display: none;">
+
+                <!-- Disable Captcha -->
+                <input type="hidden" name="_captcha" value="false">
+
+                <!-- Success -->
+                <input type="hidden" name="_next" value="success.html">
+
                 <div class="row gy-3">
 
                   <div class="col-lg-6">
@@ -214,9 +223,10 @@
                     <div class="error-message"></div>
                     <div class="sent-message">Your message has been sent. Thank you!</div>
                   </div>
-
+                  
                   <div class="mt-0">
-                    <input type="submit" class="btn btn-defeault btn-send" value="Lähetä viesti">
+                    <!-- <input type="submit" class="btn btn-defeault btn-send" value="Lähetä viesti"> -->
+                    <button type="submit" class="btn btn-defeault btn-send">Lähetä viesti</button>
                   </div>
 
                 </div>
